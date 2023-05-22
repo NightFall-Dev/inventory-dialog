@@ -1,0 +1,25 @@
+{
+	"user": "NightFall-Dev",
+	"repo": "inventory-dialog",
+	"entry": "test.pwn",
+	"output": "test.amx",
+	"dependencies": [
+		"sampctl/samp-stdlib:0.3.7-R2-2-1",
+		"pawn-lang/YSI-Includes",
+		"NightFall-Dev/inventory",
+		"NightFall-Dev/container-dialog",
+		"NightFall-Dev/item",
+		"ScavengeSurvive/tick-difference"
+	],
+	"dev_dependencies": [
+		"ScavengeSurvive/test-boilerplate",
+		"Southclaws/zcmd",
+		"ScavengeSurvive/test-boilerplate-items"
+	],
+	"runtime": {
+		"version": "0.3.7",
+		"mode": "server",
+		"rcon_password": "password",
+		"port": 7777
+	}
+}
